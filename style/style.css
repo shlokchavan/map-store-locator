@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    position: absolute;
+    font-size: 82px;
+    z-index: 1;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    top: 100px;
+    left: 100px;
+}
+
+.search-container {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    background-color: #454353;
+    z-index: 100;
+    top: 230px;
+    left: 100px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.search-container input {
+    flex-grow: 1;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.search-container input {
+    outline: none;
+}
+.search i {
+    font-size: 25px;
+    color: white;
+}
+
+.store-list-container {
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    z-index: 100;
+    top: 320px;
+    left: 100px;
+    border-radius: 30px;
+    bottom: 20px;
+    display: flex;
+
+}
+
+.store-address {
+    font-size: 21px;
+    color: #514c4c;
+    margin-top: 30px;
+}
+
+.store-phone-number {
+    color: #B5ADAD;
+    margin: 15px 0;
+}
+
+.store-number {
+    width: 30px;
+    height: 30px;
+    background-color: #454E53;
+    display: flex;
+    color: #B5ADAD;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.store-address span {
+    display: block;
+}
+.store-info-container {
+    flex-grow: 1;
+}
+
+.store-container-background {
+    display: flex;
+    padding: 0 8px;
+    margin: 12px 0;
+    border-radius: 18px;
+}
+.store-container-background:hover {
+    background-color: #ccc;
+    transition: all 0.2s ease-in;
+
+}
+.store-container {
+    border-bottom: 1px solid #979797;
+    cursor: pointer;
+}
+.stores-list {
+    padding: 0 20px;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+
+.store-number-container {
+    display: flex;
+    align-items: center;
+}
